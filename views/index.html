@@ -27,11 +27,24 @@
                 <div class="title">
                     <h3>Sign Up For Our Newsletter</h3>
                 </div>
-                <button data-close-button class="close-btn">&times;</button>
+                <div class="subheading">
+                    <p>Get your scoop on regional Credit Union news right from your inbox.
+                        We'll be sending out weekly notices on new content including: financial
+                        literacy tips, investing guides and much more!
+                    </p>
+                </div>
             </div>
             <div class="modal-body">
                 <div class="survey">
-                    <p>name</p>
+                    <form>
+                    <label for="name"> Name: </label>
+                    <input required id="name" placeholder = "Your Name" name="name" type="text">  
+
+                    <label for='union-name'> Email: </label>
+                    <input id='union-name' required name='union-name' placeholder = "someone@example.com" type='text'>
+
+                    <input type="submit" id="submit-form">
+                    </form>
                 </div>
             </div>
         </div>
@@ -76,6 +89,6 @@
     </section>
     <section>
     </section>
-    <script src="../public/javascripts/script.js"></script>
+    <script src="../public/javascripts/script.js"></script> 
     </body>
 </html>
