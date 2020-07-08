@@ -38,6 +38,7 @@ h1 {
 }
 
 #btn-container {
+  position: relative;
   padding-top: 3.5rem;
   width: 40%;
   margin-left: 8rem;
