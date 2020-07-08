@@ -25,7 +25,9 @@ h1 {
 .cover-img {
   width: 100%;
   height: auto;
+  min-height: 36rem;
   position: absolute;
+  min-width: 50rem;
 }
 
 #cover-text {
