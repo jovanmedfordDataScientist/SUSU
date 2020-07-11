@@ -1,0 +1,49 @@
+#cover {
+    /*
+    background-image: url("../../../resources/leaves-tiny.jpg");
+    background-size: cover;
+    */ 
+    height: 36rem;
+    width: 69%;
+    overflow: hidden;
+    float: left;
+    margin-right: 0.3%;
+    position: relative;
+  }
+  
+  .cover-img {
+    width: 100%;
+    height: auto;
+    min-height: 36rem;
+    position: absolute;
+    min-width: 50rem;
+  }
+  
+  #cover-text {
+    width: 40%;
+    padding-top: 7rem;
+    padding-left: 8rem;
+    position: relative;
+  }
+  
+  #btn-container {
+    position: relative;
+    padding-top: 3.5rem;
+    width: 40%;
+    margin-left: 8rem;
+  }
+  
+  button {
+    background: none;
+    border: 0.1rem solid #C6AADC;
+    border-radius: 5%;
+    color: white;
+    padding:0.3rem 1.3rem;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #C6AADC;
+    opacity: 0.95;
+  }
+  

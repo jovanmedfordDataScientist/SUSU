@@ -1,4 +1,7 @@
-app = require('./app')
+var express = require('express');
+var app = express();
+
+app.use(express.static('public'));
 
 const PORT = 4001;
 app.listen(PORT, () => {
