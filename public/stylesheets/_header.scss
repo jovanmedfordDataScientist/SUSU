@@ -1,36 +1,36 @@
 #cover {
-    /*
-    background-image: url("../../../resources/leaves-tiny.jpg");
-    background-size: cover;
-    */ 
-    height: 36rem;
-    width: 69%;
+    height: 100vh;
+    width: 100%;
     overflow: hidden;
-    float: left;
-    margin-right: 0.3%;
     position: relative;
   }
   
   .cover-img {
-    width: 100%;
-    height: auto;
-    min-height: 36rem;
+    height: 100%;
+    min-width: 30rem;
     position: absolute;
-    min-width: 50rem;
+    filter:contrast(103%);
   }
   
+  .cover-content-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #cover-text {
-    width: 40%;
-    padding-top: 7rem;
-    padding-left: 8rem;
     position: relative;
   }
   
   #btn-container {
     position: relative;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
     width: 40%;
-    margin-left: 8rem;
   }
   
   button {
@@ -47,3 +47,39 @@
     opacity: 0.95;
   }
   
+
+/*Small Mobile Landscape*/
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .cover-img {
+    width: 100%;
+  }
+}
+/*
+
+@media only screen and (min-width: 1024px) {
+  #cover {
+    width: 69%;
+    overflow: auto;
+    float: left;
+    margin-right: 0.3%;
+  }
+
+  .cover-img {
+    width: 100%;
+  }
+}
+
+/*
+@media only screen and (min-width: 1000px){
+  #cover {
+    height: 36rem;
+    width: 69%;
+    overflow: auto;
+    float: left;
+    margin-right: 0.3%;
+  }
+
+  .cover-img {
+    width: 100%;
+  }
+}

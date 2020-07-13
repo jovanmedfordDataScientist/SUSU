@@ -1,0 +1,39 @@
+#SUSU-ad {
+    width: 100%;
+    background-color: #AAD9DC;
+    overflow: hidden;
+    height: 100vh;
+    opacity: 80%;
+  }
+  
+  #logo {
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    width: 15rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #tagline {
+  text-align: center;
+  margin: 0 auto;
+  width: 67%;
+  font-size: 1.45rem;
+  }
+  
+  #value-prop {
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    white-space: normal;
+  }
+
+
+  @media only screen and (min-width: 1024px){
+    #SUSU-ad {
+      width: 30.7%;
+      overflow: hidden;
+      opacity: 80%;
+    }
+  }
