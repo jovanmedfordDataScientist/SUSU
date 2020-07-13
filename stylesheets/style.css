@@ -7,6 +7,7 @@
 
 .cover-img {
   height: 100%;
+  width: 100%;
   min-width: 30rem;
   position: absolute;
   -webkit-filter: contrast(103%);
@@ -64,7 +65,7 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   #cover {
     width: 69%;
     overflow: auto;
@@ -76,7 +77,8 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+/*
+@media only screen and (min-width: 1000px){
   #cover {
     height: 36rem;
     width: 69%;
@@ -84,11 +86,12 @@ button:hover {
     float: left;
     margin-right: 0.3%;
   }
+
   .cover-img {
     width: 100%;
   }
 }
-
+*/
 #SUSU-ad {
   width: 100%;
   background-color: #AAD9DC;
