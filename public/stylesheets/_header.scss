@@ -7,11 +7,18 @@
   
   .cover-img {
     height: 100%;
-    min-width: 30rem;
     position: absolute;
     filter:contrast(103%);
   }
   
+  .cover-img:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 0, 255, 0.7);
+  }
+
   .cover-content-container {
     width: 100%;
     height: 100%;
@@ -54,7 +61,8 @@
     width: 100%;
   }
 }
-/*
+
+
 
 @media only screen and (min-width: 1024px) {
   #cover {
@@ -68,7 +76,6 @@
     width: 100%;
   }
 }
-
 /*
 @media only screen and (min-width: 1000px){
   #cover {
@@ -83,3 +90,4 @@
     width: 100%;
   }
 }
+*/
