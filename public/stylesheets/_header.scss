@@ -62,9 +62,7 @@
   }
 }
 
-
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px){
   #cover {
     width: 69%;
     overflow: auto;
@@ -76,18 +74,10 @@
     width: 100%;
   }
 }
-/*
-@media only screen and (min-width: 1000px){
-  #cover {
-    height: 36rem;
-    width: 69%;
-    overflow: auto;
-    float: left;
-    margin-right: 0.3%;
-  }
 
-  .cover-img {
-    width: 100%;
+@media only screen and (min-height: 1024px) {
+  #cover {
+    height: 36rem;;
   }
 }
-*/
+

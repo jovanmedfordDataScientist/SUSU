@@ -16,13 +16,12 @@
   }
   
   #icon1 {
-    width: 50%;
+    width: 40%;
     max-width: 15rem;
   }
   
   #description-title {
-    padding-top: 5rem;
-    padding-left: 5rem;
+
   }
   
   #description-container {
@@ -32,6 +31,18 @@
     overflow: auto;
   }
   
+  #description-flex {
+    white-space: normal;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    height:80%;
+  }
+
   @media only screen and (max-width: 768px) {
     #icon-container, #icon1 {
       width: 0;
@@ -42,6 +53,12 @@
       height: 100vh;
       width: 100%;
     }
+  }
+
+  #author {
+    color:#e8feff;
+    font-size: 1rem;
+    font-style: italic;
   }
 
   @media only screen and (max-width: 768px) and (orientation: landscape){

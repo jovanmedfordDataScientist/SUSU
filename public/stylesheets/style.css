@@ -71,7 +71,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   #cover {
     width: 69%;
     overflow: auto;
@@ -83,21 +83,12 @@ button:hover {
   }
 }
 
-/*
-@media only screen and (min-width: 1000px){
+@media only screen and (min-height: 1024px) {
   #cover {
     height: 36rem;
-    width: 69%;
-    overflow: auto;
-    float: left;
-    margin-right: 0.3%;
-  }
-
-  .cover-img {
-    width: 100%;
   }
 }
-*/
+
 #SUSU-ad {
   width: 100%;
   background-color: #AAD9DC;
@@ -106,19 +97,33 @@ button:hover {
   opacity: 80%;
 }
 
+#ad-flex {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 #logo {
-  padding-top: 8rem;
-  padding-bottom: 1rem;
-  width: 15rem;
+  width: 14rem;
   display: block;
-  margin: auto;
   text-align: center;
 }
 
 #tagline {
   text-align: center;
   margin: 0 auto;
-  width: 67%;
   font-size: 1.45rem;
 }
 
@@ -129,11 +134,17 @@ button:hover {
   white-space: normal;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   #SUSU-ad {
     width: 30.7%;
     overflow: hidden;
     opacity: 80%;
+  }
+}
+
+@media only screen and (min-height: 1024px) {
+  #SUSU-ad {
+    height: 36rem;
   }
 }
 
@@ -144,6 +155,10 @@ h1 {
 }
 
 p {
+  color: white;
+}
+
+ol li {
   color: white;
 }
 
@@ -294,13 +309,8 @@ body {
 }
 
 #icon1 {
-  width: 50%;
+  width: 40%;
   max-width: 15rem;
-}
-
-#description-title {
-  padding-top: 5rem;
-  padding-left: 5rem;
 }
 
 #description-container {
@@ -308,6 +318,25 @@ body {
   width: 69%;
   background-color: #AADCB5;
   overflow: auto;
+}
+
+#description-flex {
+  white-space: normal;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5%;
+  text-align: justify;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -319,6 +348,12 @@ body {
     height: 100vh;
     width: 100%;
   }
+}
+
+#author {
+  color: #e8feff;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
